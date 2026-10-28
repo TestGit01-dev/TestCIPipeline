@@ -28,6 +28,7 @@ class MainActivity : Activity() {
             try {
                 result.text = operation(a, b).toString()
             } catch (e: IllegalArgumentException) {
+                //Display the error message in the result TextView.
                 result.text = e.toString()
             }
         }
