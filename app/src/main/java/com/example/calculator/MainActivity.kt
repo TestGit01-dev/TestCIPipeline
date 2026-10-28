@@ -31,7 +31,7 @@ class MainActivity : Activity() {
                 result.setText(R.string.error_divide_by_zero)
             }
         }
-
+//test
         findViewById<Button>(R.id.btn_add).setOnClickListener { compute(calculator::add) }
         findViewById<Button>(R.id.btn_subtract).setOnClickListener { compute(calculator::subtract) }
         findViewById<Button>(R.id.btn_multiply).setOnClickListener { compute(calculator::multiply) }
