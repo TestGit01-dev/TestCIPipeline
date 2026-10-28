@@ -9,7 +9,11 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9edbf10a-de34-408e-8ec7-ea37d08f9c50" name="Changes" comment="Modified MainActivity" />
+    <list default="true" id="9edbf10a-de34-408e-8ec7-ea37d08f9c50" name="Changes" comment="Modified MainActivity with an exception">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/android-ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/android-ci.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/protect-main.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/protect-main.sh" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -156,7 +160,9 @@
     <MESSAGE value="Source files committed" />
     <MESSAGE value="Script files committed" />
     <MESSAGE value="Modified MainActivity" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modified MainActivity" />
+    <MESSAGE value="Modified Pipeline" />
+    <MESSAGE value="Modified MainActivity with an exception" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified MainActivity with an exception" />
   </component>
   <component name="play_dynamic_filters_status">
     <option name="appIdToCheckInfo">
