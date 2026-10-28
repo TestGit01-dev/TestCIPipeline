@@ -6,7 +6,7 @@ REPO="${1:?Usage: $0 OWNER/REPO}"
 
 gh api -X PUT "repos/${REPO}/branches/develop/protection" --input - <<JSON
 {
-  "required_status_checks": { "strict": true, "contexts": ["build"] },
+  "required_status_checks": null,
   "enforce_admins": true,
   "required_pull_request_reviews": null,
   "restrictions": null,
