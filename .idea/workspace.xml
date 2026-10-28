@@ -9,7 +9,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4eba52e7-e061-4495-b9d1-8d1635c0c633" name="Changes" comment="Add PR build rules" />
+    <list default="true" id="9edbf10a-de34-408e-8ec7-ea37d08f9c50" name="Changes" comment="Source files committed">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,101 +27,36 @@
     </projectState>
   </component>
   <component name="Git.Settings">
-    <excluded-from-favorite>
-      <branch-storage>
-        <map>
-          <entry type="LOCAL">
-            <value>
-              <list>
-                <branch-info repo="$PROJECT_DIR$" source="main" />
-              </list>
-            </value>
-          </entry>
-        </map>
-      </branch-storage>
-    </excluded-from-favorite>
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="develop" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;history&quot;: [
-    {
-      &quot;assignee&quot;: &quot;TestGit01-dev&quot;,
-      &quot;author&quot;: &quot;TestGit01-dev&quot;
-    }
-  ],
-  &quot;lastFilter&quot;: {
-    &quot;assignee&quot;: &quot;TestGit01-dev&quot;,
-    &quot;author&quot;: &quot;TestGit01-dev&quot;
-  }
-}</component>
-  <component name="GitHubPullRequestState">{
-  &quot;prStates&quot;: [
-    {
-      &quot;id&quot;: {
-        &quot;id&quot;: &quot;PR_kwDOVY2hos8AAAABLPU-vg&quot;,
-        &quot;number&quot;: 2
-      },
-      &quot;lastSeen&quot;: 1793184711625
-    }
-  ]
-}</component>
-  <component name="GithubProjectSettings">
-    <option name="branchProtectionPatterns">
-      <list>
-        <option value="main" />
-      </list>
-    </option>
-  </component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/TestGit01-dev/TestCIPipeline.git&quot;,
-    &quot;accountId&quot;: &quot;974d2c43-40a5-415f-a45e-0f1ac180351d&quot;
-  },
-  &quot;recentNewPullRequestHead&quot;: {
-    &quot;server&quot;: {
-      &quot;useHttp&quot;: false,
-      &quot;host&quot;: &quot;github.com&quot;,
-      &quot;port&quot;: null,
-      &quot;suffix&quot;: null
-    },
-    &quot;owner&quot;: &quot;TestGit01-dev&quot;,
-    &quot;repository&quot;: &quot;TestCIPipeline&quot;
-  }
-}</component>
   <component name="KmpPackageLockUpdaterState">{
   &quot;jsModulesKotlinGradlePluginVersion&quot;: {},
   &quot;wasmModulesKotlinGradlePluginVersion&quot;: {}
 }</component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 8,
+  &quot;associatedIndex&quot;: 0,
   &quot;fromUser&quot;: false
 }</component>
-  <component name="ProjectId" id="3LGbCxlktzpR1q1yIl8NlOpVFfe" />
+  <component name="ProjectId" id="3LKsO3uFGtFUggwMRJ2mlVt05Ug" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Android App.app.executor": "Run",
     "CidrDebugProfileConversion": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "SHELLCHECK.PATH": "I do mind",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "develop",
+    "gradle.sync.parallel.migration.suppressed": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/ravikiran.gln/Downloads/TestCIPipeline/BasicCalculator",
+    "last_opened_file_path": "/Users/ravikiran.gln/Documents/android-calculator",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
@@ -190,35 +127,40 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4eba52e7-e061-4495-b9d1-8d1635c0c633" name="Changes" comment="" />
-      <created>1793083227405</created>
+      <changelist id="9edbf10a-de34-408e-8ec7-ea37d08f9c50" name="Changes" comment="" />
+      <created>1793214059110</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1793083227405</updated>
+      <updated>1793214059110</updated>
     </task>
     <servers />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Source files committed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Source files committed" />
+  </component>
+  <component name="play_dynamic_filters_status">
+    <option name="appIdToCheckInfo">
       <map>
-        <entry key="MAIN">
+        <entry key="com.example.calculator">
           <value>
-            <State />
+            <CheckInfo lastCheckTimestamp="1793219071138" />
+          </value>
+        </entry>
+        <entry key="com.example.calculator.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1793219071138" />
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit and Push without any PR checks" />
-    <MESSAGE value="Set up button click listeners for calculator operations" />
-    <MESSAGE value="Added a comment to display exception message" />
-    <MESSAGE value="Removed PR checks" />
-    <MESSAGE value="Adding CI yml file" />
-    <MESSAGE value="Add PR build rules" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add PR build rules" />
   </component>
 </project>

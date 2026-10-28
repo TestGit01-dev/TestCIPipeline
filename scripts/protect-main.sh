@@ -4,7 +4,7 @@
 set -euo pipefail
 REPO="${1:?Usage: $0 OWNER/REPO}"
 
-gh api -X PUT "repos/${REPO}/branches/main/protection" --input - <<JSON
+gh api -X PUT "repos/${REPO}/branches/develop/protection" --input - <<JSON
 {
   "required_status_checks": { "strict": true, "contexts": ["build"] },
   "enforce_admins": true,
@@ -14,4 +14,4 @@ gh api -X PUT "repos/${REPO}/branches/main/protection" --input - <<JSON
   "allow_deletions": false
 }
 JSON
-echo "Branch protection enabled on main for ${REPO}: check 'build' must pass."
+echo "Branch protection enabled on develop for ${REPO}: check 'build' must pass."
