@@ -9,9 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9edbf10a-de34-408e-8ec7-ea37d08f9c50" name="Changes" comment="Source files committed">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9edbf10a-de34-408e-8ec7-ea37d08f9c50" name="Changes" comment="Modified MainActivity" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,8 +25,19 @@
     </projectState>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/TestGit01-dev/TestCIPipeline.git",
+    "accountId": "974d2c43-40a5-415f-a45e-0f1ac180351d"
+  }
+}]]></component>
   <component name="KmpPackageLockUpdaterState">{
   &quot;jsModulesKotlinGradlePluginVersion&quot;: {},
   &quot;wasmModulesKotlinGradlePluginVersion&quot;: {}
@@ -53,7 +62,7 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "develop",
+    "git-widget-placeholder": "Test1",
     "gradle.sync.parallel.migration.suppressed": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/ravikiran.gln/Documents/android-calculator",
@@ -145,7 +154,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Source files committed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Source files committed" />
+    <MESSAGE value="Script files committed" />
+    <MESSAGE value="Modified MainActivity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified MainActivity" />
   </component>
   <component name="play_dynamic_filters_status">
     <option name="appIdToCheckInfo">
