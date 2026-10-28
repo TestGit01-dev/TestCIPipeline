@@ -28,10 +28,10 @@ class MainActivity : Activity() {
             try {
                 result.text = operation(a, b).toString()
             } catch (e: IllegalArgumentException) {
-                result.setText(R.string.error_divide_by_zero)
+                result.text = e.toString()
             }
         }
-
+        // Set up button click listeners for each operation
         findViewById<Button>(R.id.btn_add).setOnClickListener { compute(calculator::add) }
         findViewById<Button>(R.id.btn_subtract).setOnClickListener { compute(calculator::subtract) }
         findViewById<Button>(R.id.btn_multiply).setOnClickListener { compute(calculator::multiply) }
