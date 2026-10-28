@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Basic Calculator</string>
+    <string name="hint_first_number">First number</string>
+    <string name="hint_second_number">Second number</string>
+    <string name="op_add">+</string>
+    <string name="op_subtract">−</string>
+    <string name="op_multiply">×</string>
+    <string name="op_divide">÷</string>
+    <string name="result_placeholder">Result</string>
+    <string name="error_invalid_input">Enter two numbers</string>
+    <string name="error_divide_by_zero">Cannot divide by zero</string>
+</resources>
