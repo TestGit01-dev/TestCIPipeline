@@ -28,7 +28,7 @@ class MainActivity : Activity() {
             try {
                 result.text = operation(a, b).toString()
             } catch (e: IllegalArgumentException) {
-                result.text = e.toString()
+                result.text = e.
             }
         }
 
