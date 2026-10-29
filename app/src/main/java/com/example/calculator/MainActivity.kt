@@ -1,5 +1,6 @@
 package com.example.calculator
 
+import android.annotation.SuppressLint
 import android.app.Activity
 import android.os.Bundle
 import android.widget.Button
@@ -18,6 +19,7 @@ class MainActivity : Activity() {
         val inputB = findViewById<EditText>(R.id.input_b)
         val result = findViewById<TextView>(R.id.result)
 
+        @SuppressLint("SetTextI18n")
         fun compute(operation: (Double, Double) -> Double) {
             val a = inputA.text.toString().toDoubleOrNull()
             val b = inputB.text.toString().toDoubleOrNull()
@@ -28,7 +30,7 @@ class MainActivity : Activity() {
             try {
                 result.text = operation(a, b).toString()
             } catch (e: IllegalArgumentException) {
-                result.setText(R.string.error_divide_by_zero)
+                result.text = getString(R.string.error_divide_by_zero) + " " + e.toString()
             }
         }
 
