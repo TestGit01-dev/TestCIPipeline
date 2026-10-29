@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9edbf10a-de34-408e-8ec7-ea37d08f9c50" name="Changes" comment="Source files committed">
+    <list default="true" id="9edbf10a-de34-408e-8ec7-ea37d08f9c50" name="Changes" comment="Removed branch protection">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +27,29 @@
     </projectState>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/TestGit01-dev/TestCIPipeline.git",
+    "accountId": "974d2c43-40a5-415f-a45e-0f1ac180351d"
+  },
+  "recentNewPullRequestHead": {
+    "server": {
+      "useHttp": false,
+      "host": "github.com",
+      "port": null,
+      "suffix": null
+    },
+    "owner": "TestGit01-dev",
+    "repository": "TestCIPipeline"
+  }
+}]]></component>
   <component name="KmpPackageLockUpdaterState">{
   &quot;jsModulesKotlinGradlePluginVersion&quot;: {},
   &quot;wasmModulesKotlinGradlePluginVersion&quot;: {}
@@ -50,10 +71,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "SHELLCHECK.PATH": "I do mind",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "develop",
+    "git-widget-placeholder": "#7 on Test1",
     "gradle.sync.parallel.migration.suppressed": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/ravikiran.gln/Documents/android-calculator",
@@ -127,9 +149,10 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
+    <configuration default="true" type="AppleRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" IS_LOCATION_SIMULATION_SUPPORTED="false" IS_LOCATION_SIMULATION_ALLOWED="true" APPLICATION_LANGUAGE="IDELaunchSchemeLanguageUseSystemLanguage" APPLICATION_REGION="" DEVELOPMENT_TEAM="" MAKE_ACTIVE="TRUE" SHOULD_DEBUG_EXTENSIONS="false">
+      <embedded_app_extension_list />
       <method v="2">
-        <option name="Make" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -145,7 +168,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Source files committed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Source files committed" />
+    <MESSAGE value="Removed branch protection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed branch protection" />
   </component>
   <component name="play_dynamic_filters_status">
     <option name="appIdToCheckInfo">
